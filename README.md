@@ -37,10 +37,7 @@ After analyzing the performance of each portfolio and asset(s) per portfolio, sh
 * Use the `portfolio_selection` and `asset_selection` functions to plot portfolio and asset performance relative to their type-specific bounds
   * **Note:** Currently fixing the reassignment of the `date_range` variable per execution of cell(s) that contain the `asset_selection` function. Cells that use the `asset_selection` function need to be run twice for now (once for variable reassignment, and again to show the correct plot for the asset specified)
 
-
-<video preload="auto" playsinline="playsinline" autoplay="autoplay" loop="loop" controls="controls" muted="muted" src="https://user-images.githubusercontent.com/102639530/178560643-c522127d-4953-4ffc-b6f0-232499896262.mp4" data-canonical-src="https://user-images.githubusercontent.com/102639530/178560643-c522127d-4953-4ffc-b6f0-232499896262.mp4" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px;">
-</video>
-<!-- [!Examining plot + asset performance](https://user-images.githubusercontent.com/102639530/178560643-c522127d-4953-4ffc-b6f0-232499896262.mp4) -->
+[!Examining plot + asset performance](https://user-images.githubusercontent.com/102639530/178560643-c522127d-4953-4ffc-b6f0-232499896262.mp4)
 <!-- ###### -->
 
 
