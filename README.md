@@ -8,8 +8,9 @@
 </video>
 <video width="320" height="240" controls>
   <source src="https://user-images.githubusercontent.com/102639530/178560643-c522127d-4953-4ffc-b6f0-232499896262.mp4" type="video/mp4">
-</video> -->
-  
+</video>
+   -->
+   
 This repo is going to showcase the outcomes of investing $150,000 in each of three portfolios: a stock portfolio (focusing on tech companies), a crypto portfolio (focusing on some of the top cryptos), and an index portfolio. Each of these portfolios will have their initial capital of $150,000 evenly distributed among all of their assets.
 
 After analyzing the performance of each portfolio and asset(s) per portfolio, sharpe ratios will be calculated in order to create a portfolio optimization model. This model will seek to strategically maximize returns while showcasing a strong ability to minimize downside risk where possible.
@@ -36,8 +37,11 @@ After analyzing the performance of each portfolio and asset(s) per portfolio, sh
 * Use the `portfolio_selection` and `asset_selection` functions to plot portfolio and asset performance relative to their type-specific bounds
   * **Note:** Currently fixing the reassignment of the `date_range` variable per execution of cell(s) that contain the `asset_selection` function. Cells that use the `asset_selection` function need to be run twice for now (once for variable reassignment, and again to show the correct plot for the asset specified)
 
-[!Examining plot + asset performance](https://user-images.githubusercontent.com/102639530/178560643-c522127d-4953-4ffc-b6f0-232499896262.mp4)
-######
+
+<video preload="auto" playsinline autoplay loop="loop" controls="controls" muted="muted" src="https://user-images.githubusercontent.com/102639530/178560643-c522127d-4953-4ffc-b6f0-232499896262.mp4" data-canonical-src="https://user-images.githubusercontent.com/102639530/178560643-c522127d-4953-4ffc-b6f0-232499896262.mp4" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px;">
+</video>
+<!-- [!Examining plot + asset performance](https://user-images.githubusercontent.com/102639530/178560643-c522127d-4953-4ffc-b6f0-232499896262.mp4) -->
+<!-- ###### -->
 
 
 ### Step 3 - Calculating Sharpe Ratio & KPIs
@@ -48,8 +52,9 @@ After analyzing the performance of each portfolio and asset(s) per portfolio, sh
 * Create numpy arrays to store each portfolio's returns, volatility measures, sharpe ratios, and other values
 
 ### Step 4 - Plotting `n` number of iterations & analyzing optimized portfolios
+
 [!Discovering optimized portfolio stats](https://user-images.githubusercontent.com/102639530/178560667-2f612e6d-180b-4b14-b49b-b2d13b5f0a49.mp4)
-###### Test caption
+<!-- ###### Test caption -->
 
 * Overlay scatterplots of all iterations for each portfolio
 * Develop new pandas dataframes for optimized portfolios using the numpy arrays which hold the highest sharpe ratios
