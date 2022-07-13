@@ -1,4 +1,4 @@
-# Personal_Portfolio_Optimization
+# Personal_Portfolio_Optimization_Model
 
 A model that analyzes the outcomes of investing $150,000 in each of three portfolios: a stock portfolio, a crypto portfolio, and an index portfolio. After testing the performance of each portfolio and each asset per portfolio, sharpe ratios will be calculated in order to measure varying returns / volatility amounts over the course of 10,000 unique iterations. This model will then strategically optimize capital allocations in order to maximize returns while showcasing a strong ability to minimize downside risk.
 
@@ -26,7 +26,7 @@ A model that analyzes the outcomes of investing $150,000 in each of three portfo
 
 * Assign customizable upper / lower bounds to plot both portfolio and asset performance relative to desired profit margins, which can be customized per asset type
 * Use the `portfolio_selection` and `asset_selection` functions to plot portfolio and asset performance relative to their type-specific bounds
-  * **Note (minor issue):** Currently fixing the reassignment of the `date_range` variable per execution of cell(s) that contain the `asset_selection` function. Cells that use the `asset_selection` function need to be run twice for now (once for variable reassignment, and again to show the correct plot for the asset specified). It appears that this issue was also affecting the `portfolio_selection` function only if this cell was executed after cell(s) that contained the `asset_selection` function
+  * **Note (minor issue):** Currently fixing the reassignment of the `date_range` variable per execution of cell(s) that contain the `asset_selection` function. Cells that use the `asset_selection` function need to be run twice for now (once for variable reassignment, and again to show the correct plot for the asset specified). It appears that this issue was also affecting the `portfolio_selection` function only if this cell was executed after cell(s) that contained the `asset_selection` function.
 
 ### Step 3 - Calculating Sharpe Ratio & KPIs
 
@@ -41,7 +41,7 @@ A model that analyzes the outcomes of investing $150,000 in each of three portfo
 
 [!Discovering optimized portfolio stats](https://user-images.githubusercontent.com/102639530/178560667-2f612e6d-180b-4b14-b49b-b2d13b5f0a49.mp4)
 
-* Create overlaid scatterplot of all `n` iterations per portfolio to compare optimzed portfolio's return, volatility, and sharpe ratio compared to the remaining `n-1` iterations
+* Create overlaid scatterplot of all `n` iterations per portfolio to compare optimized portfolio's return, volatility, and sharpe ratio compared to the remaining `n-1` iterations
 * Develop new pandas dataframes for optimized portfolios by using the iteration that holds the highest sharpe ratio per portfolio. If desired, the exact iteration used can be customized based on the user's preferences
   * EX: Max_return + max_volatility or max_return + min_volatility combinations can be used if desired
     * **NOTE:** _At this time, manual customization is only recommended to users that are familiar with performing operations with nested numpy arrays._
